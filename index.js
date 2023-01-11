@@ -1,11 +1,12 @@
 function greet(name) {
-  const greetpromise = new Promise(function (resolve, reject) {
+  const greetPromise = new Promise(function (resolve, reject) {
     resolve(`Hello ${name}`);
   });
-  return greetpromise;
+  return greetPromise;
 }
 
 const suzie = greet("Suzie");
+console.log(suzie);
 suzie.then((result) => {
   console.log(result);
 });
