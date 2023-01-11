@@ -6,4 +6,6 @@ function greet(name) {
 }
 
 const suzie = greet("Suzie");
-console.log(suzie);
+suzie.then((result) => {
+  console.log(result);
+});
