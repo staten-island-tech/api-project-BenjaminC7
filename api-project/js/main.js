@@ -1,3 +1,4 @@
+import "../styles/style.css";
 function greet(name) {
   const greetPromise = new Promise(function (resolve, reject) {
     resolve(`Hello ${name}`);
