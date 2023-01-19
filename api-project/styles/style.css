@@ -1,14 +1,52 @@
-html,
+@import url(variables.css);
 body,
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: black;
 }
 #app {
   font-size: 5rem;
 }
 #quoteBtn {
   font-size: 2rem;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 2rem 3rem;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10rem;
+  transition: all 0.2s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+  flex-wrap: wrap;
+}
+h1 {
+  font-size: var(--h1);
+  text-align: center;
+  color: #f44336;
+}
+h2 {
+  font-size: var(--h2);
+  text-align: center;
+  color: #f44336;
+}
+.choices {
+  margin-top: 3rem;
 }

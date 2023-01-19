@@ -7,8 +7,21 @@
     <title>Vite App</title>
   </head>
   <body>
-    <button id="quoteBtn">Click Here for a New Quote</button>
-    <div id="app">Sample Text</div>
+    <h1>Make a D&D Character</h1>
+    <div class="choices" id="classChoices">
+      <h2>Choose Your Class:</h2>
+      <div class="btns" id="classButtons">
+        <button id="barbarianBtn" class="btn">Barbarian</button>
+      </div>
+    </div>
+    <div class="choices" id="classChoices">
+      <h2>Choose Your Race:</h2>
+      <div class="btns" id="raceButtons">
+        <button id="humanBtn" class="btn">Human</button>
+      </div>
+    </div>
+    <div id="classDes" class="description"></div>
+    <div id="raceDes" class="description"></div>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

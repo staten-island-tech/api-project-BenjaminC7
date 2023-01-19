@@ -1,7 +1,7 @@
 import "../styles/style.css";
 import { DOM } from "./dom";
-function changeQuote() {
-  const URL = "https://swapi.dev/api/people/1/";
+function changeQuote(url) {
+  const URL = url;
   async function getData(URL) {
     try {
       const response = await fetch(URL);
@@ -13,7 +13,6 @@ function changeQuote() {
   }
   getData(URL);
 }
-changeQuote();
 DOM.quoteBtn.addEventListener("click", function () {
   changeQuote();
 });
