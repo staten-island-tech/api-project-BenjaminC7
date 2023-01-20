@@ -1,19 +1,19 @@
 import "../styles/style.css";
 import { DOM } from "./dom";
-function changeQuote(url) {
-  const URL = url;
+
+function insertClassDescription(role) {
+  const URL = `https://www.dnd5eapi.co/api/classes/${role}`;
   async function getData(URL) {
     try {
       const response = await fetch(URL);
       const data = await response.json();
-      DOM.quote.textContent = data.homeworld;
+      console.log(data.name);
     } catch (error) {
       console.log(error);
     }
   }
   getData(URL);
 }
-DOM.quoteBtn.addEventListener("click", function () {
-  changeQuote();
+DOM.barbarianBtn.addEventListener("click", function () {
+  insertClassDescription(barbarian);
 });
-getData(URL);

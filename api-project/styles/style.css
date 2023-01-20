@@ -5,7 +5,7 @@ body,
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: black;
+  background-color: #ffecb3;
 }
 #app {
   font-size: 5rem;
@@ -25,6 +25,7 @@ body,
   border: none;
   border-radius: 10rem;
   transition: all 0.2s;
+  background-color: white;
 }
 .btn:hover {
   transform: translateY(-2px);
@@ -41,11 +42,17 @@ h1 {
   font-size: var(--h1);
   text-align: center;
   color: #f44336;
+  background-color: black;
 }
 h2 {
   font-size: var(--h2);
   text-align: center;
   color: #f44336;
+  background-color: black;
+  padding: 1rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  border-radius: 3rem;
 }
 .choices {
   margin-top: 3rem;

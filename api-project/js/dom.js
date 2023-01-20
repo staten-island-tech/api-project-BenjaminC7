@@ -1,5 +1,5 @@
 const DOM = {
-  quote: document.getElementById("app"),
-  quoteBtn: document.getElementById("quoteBtn"),
+  barbarianBtn: document.getElementById("barbarianBtn"),
+  classDes: document.getElementById("classDes"),
 };
 export { DOM };
