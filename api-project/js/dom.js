@@ -1,6 +1,21 @@
 const DOM = {
   barbarianBtn: document.getElementById("barbarianBtn"),
+  bardBtn: document.getElementById("bardBtn"),
+  clericBtn: document.getElementById("clericBtn"),
+  druidBtn: document.getElementById("druidBtn"),
+  fighterBtn: document.getElementById("fighterBtn"),
+  monkBtn: document.getElementById("monkBtn"),
+  paladinBtn: document.getElementById("paladinBtn"),
+  rangerBtn: document.getElementById("rangerBtn"),
+  rougeBtn: document.getElementById("rougeBtn"),
+  sorcererBtn: document.getElementById("sorcererBtn"),
+  warlockBtn: document.getElementById("warlockBtn"),
+  wizardBtn: document.getElementById("wizardBtn"),
   classDes: document.getElementById("classDes"),
   classBtns: document.getElementById("classButtons"),
+  classProf: document.getElementById("classProf"),
+  classEquip: document.getElementById("classEquip"),
+  profHead: document.getElementById("profHead"),
+  equipHead: document.getElementById("equipHead"),
 };
 export { DOM };

@@ -7,19 +7,27 @@
     <title>Vite App</title>
   </head>
   <body>
-    <h1>Make a D&D Character</h1>
-    <div class="choices" id="classChoices">
-      <h2>Choose Your Class:</h2>
-      <div class="btns" id="classButtons"></div>
-    </div>
-    <div class="choices" id="classChoices">
-      <h2>Choose Your Race:</h2>
-      <div class="btns" id="raceButtons">
-        <button id="humanBtn" class="btn">Human</button>
+      <h1>Find D&D class Proficiencies and Equipment</h1>
+      <div class="btns" id="classButtons">
+        <button id="barbarianBtn" class="btn">Barbarian</button>
+        <button id="bardBtn" class="btn">Bard</button>
+        <button id="clericBtn" class="btn">Cleric</button>
+        <button id="druidBtn" class="btn">Druid</button>
+        <button id="fighterBtn" class="btn">Fighter</button>
+        <button id="monkBtn" class="btn">Monk</button>
+        <button id="paladinBtn" class="btn">Paladin</button>
+        <button id="rangerBtn" class="btn">Ranger</button>
+        <button id="rougeBtn" class="btn">Rouge</button>
+        <button id="sorcererBtn" class="btn">Sorcerer</button>
+        <button id="warlockBtn" class="btn">Warlock</button>
+        <button id="wizardBtn" class="btn">Wizard</button>
       </div>
-    </div>
-    <div id="classDes" class="description"></div>
-    <div id="raceDes" class="description"></div>
+      <div id="classDes" class="description">
+        <h2 id="profHead">Proficiencies</h2>
+        <div id="classProf" class="dataList"></div>
+        <h2 id="equipHead">Starting Equipment</h2>
+        <div id="classEquip" class="dataList"></div>
+      </div>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
